@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  margin: 5px;
+  background-color: #f1f8ff;
+}
+
+footer {
+  background-color: #0f172b;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 5px;
+}
+
+.footericons {
+  margin-top: 10px;
+}
+
+.footer-color {
+  color: hsl(36, 99%, 54%);
+  font-family: "Pacifico", cursive;
+}
+
+nav {
+  background-color: #0f172b;
+  padding: 20px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.derecha {
+  text-align: left;
+}
+
+nav a {
+  color: rgb(255, 252, 252);
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: hsl(36, 99%, 54%);
+  text-decoration: underline;
+}
+
+.nav-color {
+  color: #fea116;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.centradobanner {
+  position: relative;
+  overflow: hidden;
+}
+
+.centradobanner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  max-width: 80%;
+}
+
+.recuadro {
+  width: 200px;
+  height: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+.recuadro h3 {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recuadro {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.imagenes {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagenes img {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.texto {
+  flex: 1;
+  padding: 20px;
+}
+
+.texto h3 {
+  color: hsl(36, 99%, 54%);
+  font-family: "Pacifico", cursive;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.description {
+  flex: 1;
+}
+
+.descripcion h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.precio {
+  font-weight: bold;
+  margin-right: 10px;
+  color: hsl(36, 99%, 54%);
+}
+
+.textoMenu h3 {
+  color: hsl(36, 99%, 54%);
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.textoMenu {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  background-color: #0f172b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imagen {
+  flex: 1;
+  padding: 20px;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+
+.formulario {
+  flex: 1;
+  padding: 20px;
+}
+
+.formulario h2 {
+  margin-top: 0;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.campo label {
+  margin-right: 10px;
+  width: 120px;
+}
+
+.campo input,
+.consulta textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.consulta textarea {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.consulta label {
+  vertical-align: top;
+  color: white;
+}
+
+.consulta button[type="submit"] {
+  background-color: hsl(36, 99%, 54%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.consulta button[type="submit"]:hover {
+  background-color: rgb(121, 78, 0);
+}
+
+.textoFormulario {
+  color: hsl(36, 99%, 54%);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.formulario h2 {
+  color: white;
+}
+
+.texto-equipo {
+  text-align: center;
+}
+.texto-equipo h2 {
+  color: hsl(36, 99%, 54%);
+  font-family: "Pacifico", cursive;
+}
+
+.chef {
+  text-align: center;
+  margin: 10px;
+}
+
+.chef p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  background-color: white;
+  width: 23%;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.col img {
+  width: 60%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.col p {
+  margin-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
